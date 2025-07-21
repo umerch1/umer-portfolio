@@ -29,7 +29,7 @@ export const projects = [
     duration: "6 months",
     tools: ["React", "NodeJs", "Express", "Rdux Toolkit", "Firebase", "TypeScript", "JavaScript"],
     image: "/images/project2/img1.jpg?height=600&width=800",
-    shortDescription: "A dynamic commercial animation for a new tech product launch.",
+    shortDescription: "A dynamic commercial portfolio for a new tech product launch.",
     description:
       "•	Developed a feature-rich React Native application for seamless healthcare service delivery. ",
     process:
@@ -94,9 +94,9 @@ export const projects = [
     image: "/images/project5/img1.jpg?height=600&width=800",
     shortDescription: "Online E_Learning platform which contain virtual system to educate the student.",
     description:
-      "I created a complete animation set for the main character in an action-adventure game, including locomotion cycles, combat moves, and cinematic sequences. The animations needed to be both visually impressive and technically optimized for game implementation.",
+      "I created a complete portfolio set for the main character in an action-adventure game, including locomotion cycles, combat moves, and cinematic sequences. The portfolios needed to be both visually impressive and technically optimized for game implementation.",
     process:
-      "Working from the character design and game requirements, I developed animation cycles that balanced visual appeal with technical constraints. Each animation was carefully optimized for smooth blending in the game engine while maintaining the character's personality.",
+      "Working from the character design and game requirements, I developed portfolio cycles that balanced visual appeal with technical constraints. Each portfolio was carefully optimized for smooth blending in the game engine while maintaining the character's personality.",
     gallery: [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
@@ -130,12 +130,12 @@ export const projects = [
 export const testimonials = [
   {
     id: "1",
-    name: "Sarah Johnson",
-    title: "Marketing Director",
-    company: "TechBrand Inc.",
+    name: "Mudassir",
+    title: "Freelancer",
+    company: "Cirrolix Tech",
     avatar: "/placeholder.svg?height=100&width=100",
     quote:
-      "Working with this animator was a game-changer for our product launch. The animations perfectly captured our brand essence while explaining complex features in an engaging way. Our conversion rates increased by 40% after implementing the animated explainer video!",
+      "Working with Umer was a game-changer for our product launch. The portfolios perfectly captured our brand essence while explaining complex features in an engaging way. Our conversion rates increased by 40% after implementing the animated explainer video!",
   },
   {
     id: "2",
@@ -144,7 +144,7 @@ export const testimonials = [
     company: "Studio Visuals",
     avatar: "/placeholder.svg?height=100&width=100",
     quote:
-      "I've collaborated with many animators over my 15-year career, but few have the combination of technical skill and creative vision that I found here. The character animations brought our story to life in ways I hadn't imagined possible.",
+      "I've collaborated with many developers over my 5-year career, but few have the combination of technical skill and creative vision that I found here. The character portfolios brought our story to life in ways I hadn't imagined possible.",
   },
   {
     id: "3",
@@ -153,7 +153,7 @@ export const testimonials = [
     company: "GameStudio XYZ",
     avatar: "/placeholder.svg?height=100&width=100",
     quote:
-      "The character animations created for our game were exceptional. They conveyed personality and emotion while meeting our technical requirements. Players specifically mention the fluid animations in reviews, which has been great for our game's reception.",
+      "The character portfolios created for our game were exceptional. They conveyed personality and emotion while meeting our technical requirements. Players specifically mention the fluid portfolios in reviews, which has been great for our game's reception.",
   },
   {
     id: "4",
@@ -162,7 +162,7 @@ export const testimonials = [
     company: "EduTech Solutions",
     avatar: "/placeholder.svg?height=100&width=100",
     quote:
-      "Our educational content was transformed through animation. Complex concepts became accessible and engaging, and our student engagement metrics improved dramatically. I appreciate the thoughtful approach to visual storytelling.",
+      "Our educational content was transformed through portfolio. Complex concepts became accessible and engaging, and our student engagement metrics improved dramatically. I appreciate the thoughtful approach to visual storytelling.",
   },
   {
     id: "5",
@@ -171,7 +171,7 @@ export const testimonials = [
     company: "Indie Films Collective",
     avatar: "/placeholder.svg?height=100&width=100",
     quote:
-      "The animated short we collaborated on won awards at three film festivals. The attention to detail, emotional depth, and technical excellence of the animation elevated our story beyond what we had envisioned.",
+      "The animated short we collaborated on won awards at three film festivals. The attention to detail, emotional depth, and technical excellence of the portfolio elevated our story beyond what we had envisioned.",
   },
   {
     id: "6",
@@ -180,39 +180,39 @@ export const testimonials = [
     company: "SaaS Platform Inc.",
     avatar: "/placeholder.svg?height=100&width=100",
     quote:
-      "Our onboarding videos needed to be both informative and engaging. The motion graphics created for us achieved both goals beautifully. New user activation increased by 35% after implementing these animations.",
+      "Our onboarding videos needed to be both informative and engaging. The motion graphics created for us achieved both goals beautifully. New user activation increased by 35% after implementing these portfolios.",
   },
 ]
 
 export const articles = [
   {
-    id: "Javascript-Animation-Frameworks",
-    title: "Top 5 JavaScript Animation Frameworks to Enhance Your Projects",
+    id: "Javascript-portfolio-Frameworks",
+    title: "Top 5 JavaScript portfolio Frameworks to Enhance Your Projects",
     date: "June 15, 2023",
     category: "Web Development",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/js.png?height=400&width=600",
     excerpt:
-      "Explore the best JavaScript animation frameworks that can help you create stunning web animations and improve user experience.",
+      "Explore the best JavaScript portfolio frameworks that can help you create stunning web portfolios and improve user experience.",
     content:
-      "JavaScript has revolutionized web development, and animation frameworks are at the forefront of this transformation. In this article, we will explore the top five JavaScript animation frameworks that can elevate your web projects with stunning visual effects and smooth transitions.",
+      "JavaScript has revolutionized web development, and portfolio frameworks are at the forefront of this transformation. In this article, we will explore the top five JavaScript portfolio frameworks that can elevate your web projects with stunning visual effects and smooth transitions.",
   },
   {
     id: "React-hooks",
     title: "React Hooks for Dynamic data display",
     date: "May 20, 2023",
     category: "React Development",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/reactjs.png?height=400&width=600",
     excerpt:
       "Learn how to leverage React Hooks to create dynamic and interactive data show in your web applications.",
     content:
-      "React Hooks have become a game-changer in the world of web development, allowing developers to manage state and side effects in functional components. In this article, we will explore how React Hooks can be used to create dynamic and interactive animations in your web applications.",
+      "React Hooks have become a game-changer in the world of web development, allowing developers to manage state and side effects in functional components. In this article, we will explore how React Hooks can be used to create dynamic and interactive portfolios in your web applications.",
   },
   {
     id: "Nextjs",
     title: "Building Scalable Web Apps with Next.js",
     date: "April 10, 2024",
     category: "web Development",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/next.jpg?height=400&width=600",
     excerpt:
       "Next.js is a powerful framework for building scalable and performant web applications. In this article, we will explore its features and benefits.",
     content:
@@ -223,7 +223,7 @@ export const articles = [
     title: "React Native: The Future of Mobile App Development",
     date: "March 5, 2024",
     category: "Industry Trends",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/reactNative.png?height=400&width=600",
     excerpt:
       "React Native is revolutionizing mobile app development by allowing developers to build cross-platform apps using a single codebase. In this article, we will explore its advantages and use cases.",
     content:
@@ -234,7 +234,7 @@ export const articles = [
     title: "Building RESTful APIs with Node.js and Express",
     date: "February 15, 2024",
     category: "Web Development",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/restApi.jpeg?height=400&width=600",
     excerpt:
       "Learn how to build robust and scalable RESTful APIs using Node.js and Express. This article will guide you through the process step by step.",
     content:
@@ -245,7 +245,7 @@ export const articles = [
     title: "Python for Data Science: A Comprehensive Guide",
     date: "January 10, 2025",
     category: "Data Science",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/images/python.webp?height=400&width=600",
     excerpt:
       "Python has become the language of choice for data scientists. In this article, we will explore its libraries, tools, and best practices for data analysis and visualization.",
     content:

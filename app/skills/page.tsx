@@ -7,26 +7,26 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 export default function SkillsPage() {
-  const animationSkills = [
-    { name: "2D Animation", level: 95 },
-    { name: "3D Animation", level: 85 },
-    { name: "Character Design", level: 90 },
-    { name: "Storyboarding", level: 80 },
-    { name: "Motion Graphics", level: 85 },
-    { name: "Rigging", level: 75 },
-    { name: "Compositing", level: 88 },
-    { name: "Stop Motion", level: 70 },
+  const portfolioSkills = [
+    { name: "Java Script", level: 95 },
+    { name: "TypeScript", level: 85 },
+    { name: "Nextjs", level: 90 },
+    { name: "React Native", level: 80 },
+    { name: "AWS", level: 85 },
+    { name: "Python", level: 75 },
+    { name: "GraphQL", level: 88 },
+    { name: "Backend", level: 70 },
   ];
 
   const softwareSkills = [
-    { name: "Adobe After Effects", level: 95 },
+    { name: "Code Editor", level: 95 },
     { name: "Adobe Photoshop", level: 90 },
-    { name: "Adobe Illustrator", level: 85 },
-    { name: "Cinema 4D", level: 80 },
-    { name: "Blender", level: 75 },
-    { name: "Maya", level: 70 },
-    { name: "Toon Boom Harmony", level: 85 },
-    { name: "DaVinci Resolve", level: 65 },
+    { name: "MS Word", level: 85 },
+    { name: "AWS", level: 80 },
+    { name: "Docker", level: 75 },
+    { name: "MySQL", level: 70 },
+    { name: "GitHub", level: 85 },
+    { name: "Canva", level: 65 },
   ];
 
   const softSkills = [
@@ -58,14 +58,14 @@ export default function SkillsPage() {
             </div>
 
             <div className="mx-auto max-w-4xl mt-12">
-              <Tabs defaultValue="animation" className="w-full">
+              <Tabs defaultValue="portfolio" className="w-full">
                 <TabsList className="grid w-full grid-cols-3">
-                  <TabsTrigger value="animation">Animation Skills</TabsTrigger>
+                  <TabsTrigger value="portfolio">portfolio Skills</TabsTrigger>
                   <TabsTrigger value="software">Software & Tools</TabsTrigger>
                   <TabsTrigger value="soft">Soft Skills</TabsTrigger>
                 </TabsList>
-                <TabsContent value="animation" className="mt-6 space-y-6">
-                  {animationSkills.map((skill) => (
+                <TabsContent value="portfolio" className="mt-6 space-y-6">
+                  {portfolioSkills.map((skill) => (
                     <SkillBar
                       key={skill.name}
                       name={skill.name}
@@ -107,7 +107,7 @@ export default function SkillsPage() {
                   <Card>
                     <CardContent className="p-6">
                       <h3 className="text-xl font-bold mb-2">
-                        Character Animation
+                        Character portfolio
                       </h3>
                       <p className="text-muted-foreground">
                         Specializing in bringing characters to life with
@@ -134,7 +134,7 @@ export default function SkillsPage() {
                       </h3>
                       <p className="text-muted-foreground">
                         Building detailed 3D models and creating efficient rigs
-                        that enable smooth and realistic animation.
+                        that enable smooth and realistic portfolio.
                       </p>
                     </CardContent>
                   </Card>
@@ -165,7 +165,7 @@ export default function SkillsPage() {
                       <p className="text-muted-foreground">
                         I regularly participate in workshops, online courses,
                         and industry conferences to stay current with the latest
-                        animation techniques and technologies.
+                        portfolio techniques and technologies.
                       </p>
                     </CardContent>
                   </Card>
@@ -173,7 +173,7 @@ export default function SkillsPage() {
                     <CardContent className="p-6">
                       <h3 className="text-xl font-bold mb-2">Mentorship</h3>
                       <p className="text-muted-foreground">
-                        I actively mentor junior animators, sharing knowledge
+                        I actively mentor junior developers, sharing knowledge
                         and techniques while fostering their creative growth.
                       </p>
                     </CardContent>
@@ -184,9 +184,9 @@ export default function SkillsPage() {
                         Industry Involvement
                       </h3>
                       <p className="text-muted-foreground">
-                        I'm an active member of animation communities and
+                        I'm an active member of portfolio communities and
                         professional organizations, contributing to the broader
-                        animation industry.
+                        portfolio industry.
                       </p>
                     </CardContent>
                   </Card>
@@ -237,9 +237,9 @@ export default function SkillsPage() {
                     <div className="mx-auto w-12 h-12 flex items-center justify-center rounded-full bg-primary text-primary-foreground mb-4">
                       3
                     </div>
-                    <h3 className="text-xl font-bold mb-2">Animation</h3>
+                    <h3 className="text-xl font-bold mb-2">portfolio</h3>
                     <p className="text-muted-foreground">
-                      Bringing the concept to life through careful animation,
+                      Bringing the concept to life through careful portfolio,
                       timing, and movement.
                     </p>
                   </CardContent>
@@ -251,7 +251,7 @@ export default function SkillsPage() {
                     </div>
                     <h3 className="text-xl font-bold mb-2">Refinement</h3>
                     <p className="text-muted-foreground">
-                      Polishing the animation with feedback, adding finishing
+                      Polishing the portfolio with feedback, adding finishing
                       touches, and delivering the final product.
                     </p>
                   </CardContent>

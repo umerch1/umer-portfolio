@@ -41,7 +41,7 @@ export default function Home() {
                 <div className="relative w-full max-w-[500px] aspect-video bg-muted rounded-lg overflow-hidden shadow-xl">
                   <Image
                     src="/placeholder.svg?height=500&width=900"
-                    alt="Animation reel preview"
+                    alt="portfolio reel preview"
                     fill
                     className="object-cover"
                   />
@@ -91,7 +91,7 @@ export default function Home() {
                 <div className="relative w-full max-w-[400px] aspect-square bg-muted rounded-full overflow-hidden">
                   <Image
                     src="/images/myProfile1.png"
-                    alt="Animator portrait"
+                    alt="umer portrait"
                     width={400}
                     height={400}
                     className="object-cover"
@@ -146,7 +146,7 @@ export default function Home() {
                   <AnimatedText text="My Skills & Tech Stack" />
                 </h2>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  I've honed my craft across various animation disciplines and
+                  I've honed my craft across various portfolio disciplines and
                   technologies
                 </p>
               </div>
@@ -186,7 +186,7 @@ export default function Home() {
                   <AnimatedText text="Latest Articles" />
                 </h2>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                  Insights, tutorials, and thoughts on animation and design
+                  Insights, tutorials, and thoughts on portfolio and design
                 </p>
               </div>
               <LatestArticles />
@@ -209,7 +209,7 @@ export default function Home() {
                 </h2>
                 <p className="mx-auto max-w-[700px] md:text-xl opacity-90">
                   Ready to bring your ideas to life? Let's collaborate on your
-                  next animation project.
+                  next portfolio project.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">

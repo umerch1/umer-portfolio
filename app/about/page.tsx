@@ -8,11 +8,11 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export default function AboutPage() {
   const skills = [
-    { name: "2D Animation", level: 95 },
-    { name: "3D Animation", level: 85 },
-    { name: "Character Design", level: 90 },
-    { name: "Storyboarding", level: 80 },
-    { name: "Motion Graphics", level: 85 },
+    { name: "Java Script", level: 80 },
+    { name: "React Native", level: 85 },
+    { name: "Type Script", level: 90 },
+    { name: "AWS", level: 70 },
+    { name: "GitHub", level: 85 },
   ];
 
   return (
