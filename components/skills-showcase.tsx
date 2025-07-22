@@ -1,17 +1,41 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import { Card, CardContent } from "@/components/ui/card"
+import { motion } from "framer-motion";
+import { Card, CardContent } from "@/components/ui/card";
 
 export default function SkillsShowcase() {
   const skills = [
-    { name: "2D Animation", icon: "🎨", color: "bg-red-100 dark:bg-red-900/20" },
-    { name: "3D Animation", icon: "🧊", color: "bg-blue-100 dark:bg-blue-900/20" },
-    { name: "Character Design", icon: "👤", color: "bg-green-100 dark:bg-green-900/20" },
-    { name: "Motion Graphics", icon: "✨", color: "bg-purple-100 dark:bg-purple-900/20" },
-    { name: "Storyboarding", icon: "📝", color: "bg-yellow-100 dark:bg-yellow-900/20" },
-    { name: "Visual Effects", icon: "💫", color: "bg-pink-100 dark:bg-pink-900/20" },
-  ]
+    {
+      name: "Java Script",
+      icon: "🎨",
+      color: "bg-red-100 dark:bg-red-900/20",
+    },
+    {
+      name: "React Native",
+      icon: "🧊",
+      color: "bg-blue-100 dark:bg-blue-900/20",
+    },
+    {
+      name: "Communication",
+      icon: "👤",
+      color: "bg-green-100 dark:bg-green-900/20",
+    },
+    {
+      name: "AWS",
+      icon: "✨",
+      color: "bg-purple-100 dark:bg-purple-900/20",
+    },
+    {
+      name: "GitHub",
+      icon: "📝",
+      color: "bg-yellow-100 dark:bg-yellow-900/20",
+    },
+    {
+      name: "Next.js",
+      icon: "💫",
+      color: "bg-pink-100 dark:bg-pink-900/20",
+    },
+  ];
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 gap-4 w-full max-w-3xl">
@@ -31,5 +55,5 @@ export default function SkillsShowcase() {
         </motion.div>
       ))}
     </div>
-  )
+  );
 }

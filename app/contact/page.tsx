@@ -49,7 +49,7 @@ export default function ContactPage() {
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
                   Have a project in mind? Let's bring your ideas to life through
-                  animation
+                  portfolio
                 </p>
               </div>
             </div>

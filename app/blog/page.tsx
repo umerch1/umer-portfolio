@@ -1,11 +1,11 @@
-import Link from "next/link"
-import Image from "next/image"
-import { ArrowRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import AnimatedText from "@/components/animated-text"
-import { Card, CardContent, CardFooter } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { articles } from "@/lib/data"
+import Link from "next/link";
+import Image from "next/image";
+import { ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import AnimatedText from "@/components/animated-text";
+import { Card, CardContent, CardFooter } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { articles } from "@/lib/data";
 
 export default function BlogPage() {
   return (
@@ -16,14 +16,19 @@ export default function BlogPage() {
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
-                  <AnimatedText text="Animation Insights" />
+                  <AnimatedText text="portfolio Insights" />
                 </h1>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  Tutorials, tips, and thoughts on animation and visual storytelling
+                  Tutorials, tips, and thoughts on portfolio and visual
+                  storytelling
                 </p>
               </div>
               <div className="w-full max-w-sm">
-                <Input type="search" placeholder="Search articles..." className="w-full" />
+                <Input
+                  type="search"
+                  placeholder="Search articles..."
+                  className="w-full"
+                />
               </div>
             </div>
           </div>
@@ -54,7 +59,11 @@ export default function BlogPage() {
                     </div>
                   </CardContent>
                   <CardFooter className="p-6 pt-0">
-                    <Button asChild variant="ghost" className="w-full justify-between">
+                    <Button
+                      asChild
+                      variant="ghost"
+                      className="w-full justify-between"
+                    >
                       <Link href={`/blog/${article.id}`}>
                         Read More
                         <ArrowRight className="h-4 w-4 ml-2" />
@@ -75,16 +84,22 @@ export default function BlogPage() {
                   <AnimatedText text="Subscribe to My Newsletter" />
                 </h2>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  Get the latest animation tips, tutorials, and insights delivered to your inbox
+                  Get the latest portfolio tips, tutorials, and insights
+                  delivered to your inbox
                 </p>
               </div>
               <div className="mx-auto w-full max-w-sm space-y-2">
                 <form className="flex gap-2">
-                  <Input type="email" placeholder="Enter your email" className="max-w-lg flex-1" />
+                  <Input
+                    type="email"
+                    placeholder="Enter your email"
+                    className="max-w-lg flex-1"
+                  />
                   <Button type="submit">Subscribe</Button>
                 </form>
                 <p className="text-xs text-muted-foreground">
-                  I'll never spam you or share your email. Unsubscribe at any time.
+                  I'll never spam you or share your email. Unsubscribe at any
+                  time.
                 </p>
               </div>
             </div>
@@ -92,5 +107,5 @@ export default function BlogPage() {
         </section>
       </main>
     </div>
-  )
+  );
 }

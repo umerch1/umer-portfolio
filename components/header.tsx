@@ -1,43 +1,66 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
-import Link from "next/link"
-import { usePathname } from "next/navigation"
-import { Menu, X } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { ThemeToggle } from "@/components/theme-toggle"
-import { useMobile } from "@/hooks/use-mobile"
+import { useState, useEffect } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { Menu, X } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "@/components/theme-toggle";
+import { useMobile } from "@/hooks/use-mobile";
 
 export default function Header() {
-  const pathname = usePathname()
-  const isMobile = useMobile()
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const pathname = usePathname();
+  const isMobile = useMobile();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // Close mobile menu when route changes
   useEffect(() => {
-    setIsMenuOpen(false)
-  }, [pathname])
+    setIsMenuOpen(false);
+  }, [pathname]);
 
   const navItems = [
     { label: "Home", href: "/" },
     { label: "Projects", href: "/projects" },
     { label: "About", href: "/about" },
     { label: "Contact", href: "/contact" },
-  ]
+  ];
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center justify-between">
-        <Link href="/" className="flex items-center space-x-2">
-          <span className="text-xl font-bold">Animator</span>
+      <div className="container flex h-24 items-center justify-between">
+        <Link href="/" className="flex items-center space-x-2 ml-6">
+          {/* Light Mode Logo */}
+          <img
+            src="/images/logo_black.png"
+            alt="Logo"
+            width={300}
+            height={75}
+            className="block dark:hidden"
+          />
+          {/* Dark Mode Logo */}
+          <img
+            src="/images/logo_white.png"
+            alt="Logo"
+            width={300}
+            height={75}
+            className="hidden dark:block"
+          />
         </Link>
 
         {isMobile ? (
           <>
             <div className="flex items-center space-x-4">
               <ThemeToggle />
-              <Button variant="ghost" size="icon" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-                {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              <Button
+                variant="ghost"
+                size="icon"
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+              >
+                {isMenuOpen ? (
+                  <X className="h-6 w-6" />
+                ) : (
+                  <Menu className="h-6 w-6" />
+                )}
                 <span className="sr-only">Toggle menu</span>
               </Button>
             </div>
@@ -50,7 +73,9 @@ export default function Header() {
                       key={item.href}
                       href={item.href}
                       className={`text-lg font-medium transition-colors hover:text-primary ${
-                        pathname === item.href ? "text-primary" : "text-muted-foreground"
+                        pathname === item.href
+                          ? "text-primary"
+                          : "text-muted-foreground"
                       }`}
                     >
                       {item.label}
@@ -68,7 +93,9 @@ export default function Header() {
                   key={item.href}
                   href={item.href}
                   className={`transition-colors hover:text-primary ${
-                    pathname === item.href ? "text-primary" : "text-muted-foreground"
+                    pathname === item.href
+                      ? "text-primary"
+                      : "text-muted-foreground"
                   }`}
                 >
                   {item.label}
@@ -80,5 +107,5 @@ export default function Header() {
         )}
       </div>
     </header>
-  )
+  );
 }
