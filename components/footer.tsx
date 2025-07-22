@@ -48,7 +48,8 @@ export default function Footer() {
             <h3 className="text-lg font-medium">Connect</h3>
             <div className="flex space-x-4">
               <Link
-                href="#"
+                href="https://www.instagram.com/umer_78600"
+                target="_blank"
                 className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
               >
                 <Instagram className="h-5 w-5" />
@@ -69,7 +70,8 @@ export default function Footer() {
                 <span className="sr-only">YouTube</span>
               </Link>
               <Link
-                href="#"
+                href="www.linkedin.com/in/muhammad-farooq-504093241"
+                target="_blank"
                 className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
               >
                 <Linkedin className="h-5 w-5" />

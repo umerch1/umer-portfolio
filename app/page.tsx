@@ -40,20 +40,26 @@ export default function Home() {
               <div className="flex justify-center">
                 <div className="relative w-full max-w-[500px] aspect-video bg-muted rounded-lg overflow-hidden shadow-xl">
                   <Image
-                    src="/placeholder.svg?height=500&width=900"
+                    src="/images/project2/img1.jpg?height=500&width=900"
                     alt="portfolio reel preview"
                     fill
                     className="object-cover"
                   />
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <Button
-                      size="icon"
-                      variant="outline"
-                      className="rounded-full w-16 h-16 bg-white/90 dark:bg-black/90"
+                    <a
+                      rel="stylesheet"
+                      href="https://rxexpresss.com/"
+                      target="_blank"
                     >
-                      <Play className="h-6 w-6" />
-                      <span className="sr-only">Play demo reel</span>
-                    </Button>
+                      <Button
+                        size="icon"
+                        variant="outline"
+                        className="rounded-full w-16 h-16 bg-white/90 dark:bg-black/90"
+                      >
+                        <Play className="h-6 w-6" />
+                        <span className="sr-only">Play demo reel</span>
+                      </Button>
+                    </a>
                   </div>
                 </div>
               </div>

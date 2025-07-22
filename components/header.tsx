@@ -29,7 +29,22 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-24 items-center justify-between">
         <Link href="/" className="flex items-center space-x-2 ml-6">
-          <img width={300} height={75} src="/images/logo.png" alt="" />
+          {/* Light Mode Logo */}
+          <img
+            src="/images/logo_black.png"
+            alt="Logo"
+            width={300}
+            height={75}
+            className="block dark:hidden"
+          />
+          {/* Dark Mode Logo */}
+          <img
+            src="/images/logo_white.png"
+            alt="Logo"
+            width={300}
+            height={75}
+            className="hidden dark:block"
+          />
         </Link>
 
         {isMobile ? (
