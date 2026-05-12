@@ -36,7 +36,7 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
               </div>
 
               <div className="relative w-full aspect-video bg-gray-200 dark:bg-gray-800 rounded-lg overflow-hidden">
-                <Image src={project.image || "/placeholder.svg"} alt={project.title} fill className="object-cover" />
+                <Image src={project.image || "/placeholder.svg"} alt={project.title} fill className="object-contain" />
               </div>
 
               <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
@@ -79,7 +79,7 @@ export default function ProjectPage({ params }: { params: { id: string } }) {
                       src={image || "/placeholder.svg"}
                       alt={`${project.title} gallery image ${index + 1}`}
                       fill
-                      className="object-cover"
+                      className="object-contain"
                     />
                   </div>
                 ))}

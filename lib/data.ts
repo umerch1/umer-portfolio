@@ -1,5 +1,34 @@
 export const projects = [
   {
+  id: "Alemx",
+  title: "Alemx Mobile Application",
+  category: "Mobile app",
+  date: "2025",
+  client: "Alemx",
+  duration: "1 year",
+  tools: [
+    "React Native",
+    "Redux Toolkit",
+    "Expo Router",
+    "Javascript",
+    "Firebase",
+    "REST API",
+    "Git"
+  ],
+  image: "/images/project0/img5.webp",
+  shortDescription: "A modern cross-platform mobile application developed using React Native.",
+  description:
+    "Developed and maintained a scalable mobile application using React Native with modern UI/UX practices. Worked on reusable components, API integration, authentication, navigation, and performance optimization for Android and iOS platforms.",
+  process:
+    "Worked closely with designers and backend developers to build responsive mobile screens and implement application features. Used Redux Toolkit for state management, Expo Router for navigation, Firebase services, REST API integration, debugging, unit testing, and Git for version control while following clean coding standards and agile development practices.",
+  gallery: [
+    "/images/project0/img1.webp",
+    "/images/project0/img2.webp",
+    "/images/project0/img3.webp",
+    "/images/project0/img4.webp",
+  ],
+},
+  {
     id: "Pakloader",
     title: "Pakloader Driver Side",
     category: "Mobile app",
