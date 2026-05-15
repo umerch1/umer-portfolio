@@ -70,8 +70,9 @@ export default function Footer() {
                 <span className="sr-only">YouTube</span>
               </Link>
               <Link
-                href="www.linkedin.com/in/muhammad-farooq-504093241"
+                href="https://www.linkedin.com/in/umer-farooq-u78600"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50"
               >
                 <Linkedin className="h-5 w-5" />

@@ -41,7 +41,7 @@ export default function AboutPage() {
                   MERN Stack Developer & Mobile App Specialist
                 </p>
                 <p className="text-muted-foreground">
-                  I'm Muhammad Farooq, a dedicated software developer with over
+                  I'm Umer Farooq, a dedicated software developer with over
                   4 years of experience specializing in the MERN stack,
                   particularly React Native. My journey started with crafting
                   seamless user interfaces and has expanded to delivering
@@ -105,6 +105,9 @@ export default function AboutPage() {
                     community featusres.
                   </li>
                 </ul>
+                <p className="text-muted-foreground">
+                  At Alemx, I worked as a React Native Developer where I migrated existing applications from Expo to React Native CLI, rebuilding the apps with a more scalable architecture and improved performance. I contributed to optimizing application speed, reducing load times, and enhancing overall app stability for Android and iOS platforms. My work also included restructuring the codebase, implementing reusable components, integrating APIs, and improving the development workflow for long-term scalability and maintainability.
+                </p>
                 <p className="text-muted-foreground">
                   In addition to mobile app development, I explored web
                   technologies, working on websites built with Next.js for the
@@ -182,9 +185,9 @@ export default function AboutPage() {
                 <div className="space-y-4">
                   <div className="border-l-2 border-primary pl-4">
                     <h3 className="text-xl font-bold">
-                      Senior Umer at bizzdevs
+                      Senior Umer at mbudevs
                     </h3>
-                    <p className="text-muted-foreground">2025 - Present</p>
+                    <p className="text-muted-foreground">2025- Present</p>
                     <p className="mt-2">
                       Leading Interactive projects for major clients, mentoring
                       junior Umers, and developing new development techniques.
@@ -202,6 +205,18 @@ export default function AboutPage() {
                       payment methods. Worked on an In Drive-like app using.
                     </p>
                   </div>
+                  <div className="border-l-2 border-primary pl-4">
+              <h3 className="text-xl font-bold">
+           Umer at Alemx(Shadow source + contract)  
+           </h3>
+         <p className="text-muted-foreground">2025 - 2026</p>
+         <p className="mt-2">
+    Migrated existing mobile applications from Expo to React Native CLI with a
+    fully scalable architecture and optimized performance. Improved app speed,
+    reduced load times, implemented reusable components, integrated REST APIs,
+    and enhanced overall application stability for Android and iOS platforms.
+             </p>
+              </div>
                   <div className="border-l-2 border-primary pl-4">
                     <h3 className="text-xl font-bold">
                       Junior Umer at Ebridge
