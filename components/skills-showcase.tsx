@@ -35,6 +35,21 @@ export default function SkillsShowcase() {
       icon: "💫",
       color: "bg-pink-100 dark:bg-pink-900/20",
     },
+    {
+      name: "Microsoft Excel",
+      icon: "📊",
+      color: "bg-green-100 dark:bg-green-900/20",
+    },
+    {
+      name: "Microsoft Word",
+      icon: "📄",
+      color: "bg-blue-100 dark:bg-blue-900/20",
+    },
+    {
+      name: "Microsoft PowerPoint",
+      icon: "📽️",
+      color: "bg-orange-100 dark:bg-orange-900/20",
+    },
   ];
 
   return (
