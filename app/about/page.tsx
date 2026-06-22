@@ -38,16 +38,23 @@ export default function AboutPage() {
                   <AnimatedText text="About Me" />
                 </h1>
                 <p className="text-xl text-muted-foreground">
-                  MERN Stack Developer & Mobile App Specialist
+                  MERN Stack Developer, Mobile App Specialist & Educator
                 </p>
+
                 <p className="text-muted-foreground">
-                  I'm Umer Farooq, a dedicated software developer with over
-                  4 years of experience specializing in the MERN stack,
+                  I'm Umer Farooq, a dedicated software developer with over 4
+                  years of experience specializing in the MERN stack,
                   particularly React Native. My journey started with crafting
                   seamless user interfaces and has expanded to delivering
                   robust, scalable mobile and web applications using modern
-                  development practices. I am passionate about turning ideas
-                  into impactful digital solutions.
+                  development practices. Alongside software development, I have
+                  experience teaching computer science, mathematics, and
+                  physics, helping students understand complex concepts through
+                  practical, real-world examples. I am also proficient in
+                  Microsoft Excel, Word, and PowerPoint for documentation, data
+                  analysis, reporting, and professional presentations. I am
+                  passionate about turning ideas into impactful digital
+                  solutions and sharing knowledge with others.
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button asChild>
@@ -106,7 +113,15 @@ export default function AboutPage() {
                   </li>
                 </ul>
                 <p className="text-muted-foreground">
-                  At Alemx, I worked as a React Native Developer where I migrated existing applications from Expo to React Native CLI, rebuilding the apps with a more scalable architecture and improved performance. I contributed to optimizing application speed, reducing load times, and enhancing overall app stability for Android and iOS platforms. My work also included restructuring the codebase, implementing reusable components, integrating APIs, and improving the development workflow for long-term scalability and maintainability.
+                  At Alemx, I worked as a React Native Developer where I
+                  migrated existing applications from Expo to React Native CLI,
+                  rebuilding the apps with a more scalable architecture and
+                  improved performance. I contributed to optimizing application
+                  speed, reducing load times, and enhancing overall app
+                  stability for Android and iOS platforms. My work also included
+                  restructuring the codebase, implementing reusable components,
+                  integrating APIs, and improving the development workflow for
+                  long-term scalability and maintainability.
                 </p>
                 <p className="text-muted-foreground">
                   In addition to mobile app development, I explored web
@@ -206,17 +221,19 @@ export default function AboutPage() {
                     </p>
                   </div>
                   <div className="border-l-2 border-primary pl-4">
-              <h3 className="text-xl font-bold">
-           Umer at Alemx(Shadow source + contract)  
-           </h3>
-         <p className="text-muted-foreground">2025 - 2026</p>
-         <p className="mt-2">
-    Migrated existing mobile applications from Expo to React Native CLI with a
-    fully scalable architecture and optimized performance. Improved app speed,
-    reduced load times, implemented reusable components, integrated REST APIs,
-    and enhanced overall application stability for Android and iOS platforms.
-             </p>
-              </div>
+                    <h3 className="text-xl font-bold">
+                      Umer at Alemx(Shadow source + contract)
+                    </h3>
+                    <p className="text-muted-foreground">2025 - 2026</p>
+                    <p className="mt-2">
+                      Migrated existing mobile applications from Expo to React
+                      Native CLI with a fully scalable architecture and
+                      optimized performance. Improved app speed, reduced load
+                      times, implemented reusable components, integrated REST
+                      APIs, and enhanced overall application stability for
+                      Android and iOS platforms.
+                    </p>
+                  </div>
                   <div className="border-l-2 border-primary pl-4">
                     <h3 className="text-xl font-bold">
                       Junior Umer at Ebridge

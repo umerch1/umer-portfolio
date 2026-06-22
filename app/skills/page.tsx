@@ -22,6 +22,8 @@ export default function SkillsPage() {
     { name: "Code Editor", level: 95 },
     { name: "Adobe Photoshop", level: 90 },
     { name: "MS Word", level: 85 },
+    { name: "MS Excel", level: 60 },
+    { name: "MS PowerPoint", level: 70 },
     { name: "AWS", level: 80 },
     { name: "Docker", level: 75 },
     { name: "MySQL", level: 70 },

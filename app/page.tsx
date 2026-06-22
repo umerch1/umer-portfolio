@@ -30,8 +30,11 @@ export default function Home() {
                 </p>
                 <p className="text-gray-500 dark:text-gray-400">
                   Proficient in React Native, scalable architecture, and modern
-                  JavaScript frameworks. I deliver polished digital products
-                  with strong communication and problem-solving skills.
+                  JavaScript frameworks. Experienced in creating professional
+                  documentation, reports, presentations, and data analysis using
+                  Microsoft Word, Excel, and PowerPoint. I deliver polished
+                  digital products with strong communication and problem-solving
+                  skills.
                 </p>
               </div>
               <div className="flex w-full flex-col items-center gap-4 pt-4 sm:flex-row sm:justify-center md:justify-start">
@@ -90,8 +93,8 @@ export default function Home() {
                   View All Projects <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
-      </div>
-<div className="flex flex-col items-center space-y-4 text-center">
+            </div>
+            <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
                   <AnimatedText text="My Skills & Tech Stack" />
