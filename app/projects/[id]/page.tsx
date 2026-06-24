@@ -6,8 +6,9 @@ import AnimatedText from "@/components/animated-text"
 import { projects } from "@/lib/data"
 import { notFound } from "next/navigation"
 
-export default function ProjectPage({ params }: { params: { id: string } }) {
-  const project = projects.find((p) => p.id === params.id)
+export default async function ProjectPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params
+  const project = projects.find((p) => p.id === id)
 
   if (!project) {
     notFound()
