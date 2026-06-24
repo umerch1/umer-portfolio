@@ -5,7 +5,10 @@ import { Button } from "@/components/ui/button"
 import AnimatedText from "@/components/animated-text"
 import { projects } from "@/lib/data"
 import { notFound } from "next/navigation"
-
+export const metadata = {
+  title: "Project | Umer Farooq - Software Engineer",
+  description:
+    "Explore Umer Farooq's portfolio projects, showcasing his work in the MERN stack and React Native development.",};
 export default async function ProjectPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params
   const project = projects.find((p) => p.id === id)

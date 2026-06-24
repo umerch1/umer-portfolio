@@ -5,7 +5,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-
+export const metadata = {
+  title: "Skills | Umer Farooq - Software Engineer",
+  description:
+    "Explore Umer Farooq's technical skills and expertise in the MERN stack and React Native development.",};
 export default function SkillsPage() {
   const portfolioSkills = [
     { name: "Java Script", level: 95 },

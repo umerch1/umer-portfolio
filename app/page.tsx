@@ -7,7 +7,11 @@ import FeaturedProjects from "@/components/featured-projects";
 import TestimonialsCarousel from "@/components/testimonials-carousel";
 import SkillsShowcase from "@/components/skills-showcase";
 import LatestArticles from "@/components/latest-articles";
-
+export const metadata = {
+  title: "Home | Umer Farooq - Software Engineer",
+  description:
+    "Software Engineer specializing in MERN Stack with 4 years of Web and Mobile app development experience. Proficient in React Native, scalable architecture, and modern JavaScript frameworks. Experienced in creating professional documentation, reports, presentations, and data analysis using Microsoft Word, Excel, and PowerPoint. I deliver polished digital products with strong communication and problem-solving skills.",
+};
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
