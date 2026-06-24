@@ -1,7 +1,10 @@
 import AnimatedText from "@/components/animated-text";
 import ProjectCard from "@/components/project-card";
 import { projects } from "@/lib/data";
-
+export const metadata = {
+  title: "Projects | Umer Farooq - Software Engineer",
+  description:
+    "Explore my diverse portfolio of interactive projects, showcasing innovative designs and solutions that engage users and enhance experiences across various platforms.",};
 export default function ProjectsPage() {
   return (
     <div className="flex flex-col min-h-screen">

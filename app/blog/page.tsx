@@ -6,7 +6,10 @@ import AnimatedText from "@/components/animated-text";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { articles } from "@/lib/data";
-
+export const metadata = {
+  title: "Blog | Umer Farooq - Software Engineer",
+  description:
+    "Read the latest articles and insights from Umer Farooq, a software engineer specializing in the MERN stack and React Native development.",};
 export default function BlogPage() {
   return (
     <div className="flex flex-col min-h-screen">

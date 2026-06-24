@@ -5,6 +5,10 @@ import { Button } from "@/components/ui/button";
 import AnimatedText from "@/components/animated-text";
 import { articles } from "@/lib/data";
 import { notFound } from "next/navigation";
+export const metadata = {
+  title: "Blog | Umer Farooq - Software Engineer",
+  description:
+    "Read the latest articles and insights from Umer Farooq, a software engineer specializing in the MERN stack and React Native development.",};
 
 export default async function BlogDetailPage({
   params,

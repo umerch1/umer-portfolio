@@ -5,7 +5,10 @@ import { Button } from "@/components/ui/button";
 import AnimatedText from "@/components/animated-text";
 import { Separator } from "@/components/ui/separator";
 import { Card, CardContent } from "@/components/ui/card";
-
+export const metadata = {
+  title: "About | Umer Farooq - Software Engineer",
+  description:
+    "Learn more about Umer Farooq, a passionate software engineer with expertise in the MERN stack and React Native development.",};
 export default function AboutPage() {
   const skills = [
     { name: "Java Script", level: 80 },

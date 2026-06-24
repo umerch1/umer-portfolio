@@ -2,7 +2,10 @@ import Link from "next/link";
 import { ArrowLeft, Download, Mail, MapPin, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
-
+export const metadata = {
+  title: "Resume | Umer Farooq - Software Engineer",
+  description:
+    "View Umer Farooq's resume, highlighting his experience and skills in the MERN stack and React Native development.",};
 export default function ResumePage() {
   return (
     <div className="flex flex-col min-h-screen">
