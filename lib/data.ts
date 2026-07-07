@@ -15,7 +15,7 @@ export const projects = [
     "REST API",
     "Git"
   ],
-  image: "/images/project0/img5.webp",
+  image: "/images/project0/img1.png",
   shortDescription: "A modern cross-platform mobile application developed using React Native.",
   description:
     "Developed and maintained a scalable mobile application using React Native with modern UI/UX practices. Worked on reusable components, API integration, authentication, navigation, and performance optimization for Android and iOS platforms.",
