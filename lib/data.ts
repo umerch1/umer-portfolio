@@ -1,33 +1,34 @@
 export const projects = [
   {
-  id: "Alemx",
-  title: "Alemx Mobile Application",
-  category: "Mobile app",
-  date: "2025",
-  client: "Alemx",
-  duration: "1 year",
-  tools: [
-    "React Native",
-    "Redux Toolkit",
-    "Expo Router",
-    "Javascript",
-    "Firebase",
-    "REST API",
-    "Git"
-  ],
-  image: "/images/project0/img1.png",
-  shortDescription: "A modern cross-platform mobile application developed using React Native.",
-  description:
-    "Developed and maintained a scalable mobile application using React Native with modern UI/UX practices. Worked on reusable components, API integration, authentication, navigation, and performance optimization for Android and iOS platforms.",
-  process:
-    "Worked closely with designers and backend developers to build responsive mobile screens and implement application features. Used Redux Toolkit for state management, Expo Router for navigation, Firebase services, REST API integration, debugging, unit testing, and Git for version control while following clean coding standards and agile development practices.",
-  gallery: [
-    "/images/project0/img1.webp",
-    "/images/project0/img2.webp",
-    "/images/project0/img3.webp",
-    "/images/project0/img4.webp",
-  ],
-},
+    id: "Alemx",
+    title: "Alemx Mobile Application",
+    category: "Mobile app",
+    date: "2025",
+    client: "Alemx",
+    duration: "1 year",
+    tools: [
+      "React Native",
+      "Redux Toolkit",
+      "Expo Router",
+      "Javascript",
+      "Firebase",
+      "REST API",
+      "Git",
+    ],
+    image: "/images/project0/img1.png",
+    shortDescription:
+      "A modern cross-platform mobile application developed using React Native.",
+    description:
+      "Developed and maintained a scalable mobile application using React Native with modern UI/UX practices. Worked on reusable components, API integration, authentication, navigation, and performance optimization for Android and iOS platforms.",
+    process:
+      "Worked closely with designers and backend developers to build responsive mobile screens and implement application features. Used Redux Toolkit for state management, Expo Router for navigation, Firebase services, REST API integration, debugging, unit testing, and Git for version control while following clean coding standards and agile development practices.",
+    gallery: [
+      "/images/project0/img1.webp",
+      "/images/project0/img2.webp",
+      "/images/project0/img3.webp",
+      "/images/project0/img4.webp",
+    ],
+  },
   {
     id: "Pakloader",
     title: "Pakloader Driver Side",
@@ -35,7 +36,13 @@ export const projects = [
     date: "2023",
     client: "Tklogics",
     duration: "1.5 year",
-    tools: ["React Native", "Redux Tool kit", "Redux Saga", "Javascript", "Firebase"],
+    tools: [
+      "React Native",
+      "Redux Tool kit",
+      "Redux Saga",
+      "Javascript",
+      "Firebase",
+    ],
     image: "/images/project1/project1.jpg?width=800&height=600",
     shortDescription: "A Driver-like mobile app",
     description:
@@ -56,9 +63,18 @@ export const projects = [
     date: "2025",
     client: "Gorgia",
     duration: "6 months",
-    tools: ["React", "NodeJs", "Express", "Rdux Toolkit", "Firebase", "TypeScript", "JavaScript"],
+    tools: [
+      "React",
+      "NodeJs",
+      "Express",
+      "Rdux Toolkit",
+      "Firebase",
+      "TypeScript",
+      "JavaScript",
+    ],
     image: "/images/project2/img1.jpg?height=600&width=800",
-    shortDescription: "A dynamic commercial portfolio for a new tech product launch.",
+    shortDescription:
+      "A dynamic commercial portfolio for a new tech product launch.",
     description:
       "•	Developed a feature-rich React Native application for seamless healthcare service delivery. ",
     process:
@@ -79,7 +95,8 @@ export const projects = [
     duration: "4 weeks",
     tools: ["React Native", "Redux Toolkit", "Firebase", "JavaScript"],
     image: "/images/project3/img1.webp?height=600&width=800",
-    shortDescription: "An engaging explainer video that simplifies complex educational concepts.",
+    shortDescription:
+      "An engaging explainer video that simplifies complex educational concepts.",
     description:
       "Islam Basic App is an excellent resource for learning about Islam",
     process:
@@ -100,7 +117,8 @@ export const projects = [
     duration: "8 months",
     tools: ["React Native", "Redux Toolkit", "Firebase", "JavaScript"],
     image: "/images/project4/img1.jpg?height=600&width=800",
-    shortDescription: "A heartwarming animated short film about friendship and adventure.",
+    shortDescription:
+      "A heartwarming animated short film about friendship and adventure.",
     description:
       "Developed and deployed a comprehensive boxing TV app using React Native.",
     process:
@@ -121,7 +139,8 @@ export const projects = [
     duration: "5 months",
     tools: ["React", "Node.js", "Express", "MongoDB", "JavaScript"],
     image: "/images/project5/img1.jpg?height=600&width=800",
-    shortDescription: "Online E_Learning platform which contain virtual system to educate the student.",
+    shortDescription:
+      "Online E_Learning platform which contain virtual system to educate the student.",
     description:
       "I created a complete portfolio set for the main character in an action-adventure game, including locomotion cycles, combat moves, and cinematic sequences. The portfolios needed to be both visually impressive and technically optimized for game implementation.",
     process:
@@ -142,7 +161,8 @@ export const projects = [
     duration: "6 months",
     tools: ["React", "Node.js", "Express", "MongoDB", "JavaScript"],
     image: "/images/project6/img1.jpg?height=600&width=800",
-    shortDescription: "PDF Edit is a web application that allows users to edit PDF files online.",
+    shortDescription:
+      "PDF Edit is a web application that allows users to edit PDF files online.",
     description:
       "This project involved creating a web application that allows users to edit PDF files online. The application supports features like adding text, images, and annotations to existing PDFs, as well as merging and splitting PDF documents.",
     process:
@@ -154,7 +174,7 @@ export const projects = [
       "/placeholder.svg?height=400&width=600",
     ],
   },
-]
+];
 
 export const testimonials = [
   {
@@ -211,9 +231,20 @@ export const testimonials = [
     quote:
       "Our onboarding videos needed to be both informative and engaging. The motion graphics created for us achieved both goals beautifully. New user activation increased by 35% after implementing these portfolios.",
   },
-]
+];
 
 export const articles = [
+  {
+  id: "expo-vs-react-native-cli",
+  title: "Expo vs React Native CLI: Which One Should You Choose?",
+  date: "July 9, 2026",
+  category: "React Native",
+  image: "/images/blog-img/expo-vs-cli.png?height=400&width=600",
+  excerpt:
+    "Confused about choosing Expo or React Native CLI? Learn the key differences, advantages, and best use cases to select the right framework for your next React Native project.",
+  content:
+    "Expo and React Native CLI are two popular ways to build cross-platform mobile applications with React Native. Expo provides a preconfigured development environment with built-in APIs, fast development, EAS Build, and over-the-air updates, making it ideal for beginners, startups, MVPs, and most production applications. React Native CLI, on the other hand, gives developers complete control over native Android and iOS projects, allowing custom native modules, SDK integrations, and platform-specific configurations for complex enterprise applications. The right choice depends on your project's requirements rather than which tool is better. Start with Expo to learn React Native efficiently, then explore React Native CLI when your applications require advanced native customization."
+},
   {
     id: "Javascript-portfolio-Frameworks",
     title: "Top 5 JavaScript portfolio Frameworks to Enhance Your Projects",
@@ -280,4 +311,4 @@ export const articles = [
     content:
       "Python has established itself as the leading language for data science, thanks to its extensive libraries and tools that facilitate data analysis, manipulation, and visualization. In this comprehensive guide, we will explore the key libraries such as Pandas, NumPy, and Matplotlib, and discuss best practices for data science projects using Python.",
   },
-]
+];
