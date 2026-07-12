@@ -12,9 +12,8 @@ Modern, fast, and accessible portfolio built with Next.js and TypeScript — des
 <div align="center">
 	<img src="/public/images/banner.png" alt="Portfolio banner" width="900" style="max-width:100%;height:auto;"/>
 	<!-- Replace the image above with: /public/images/your-banner.png -->
-
 	<p>
-		<a href="https://umerportfolio.online/" target="_blank" rel="noreferrer"><strong>Live Demo</strong></a>
+		<a href="https://umerportfolio.online" target="_blank" rel="noreferrer"><strong>Live Demo</strong></a>
 		&nbsp;•&nbsp;
 		<a href="https://github.com/umerch1/umer-portfolio" target="_blank" rel="noreferrer">GitHub Repository</a>
 	</p>
@@ -64,12 +63,11 @@ The application is developed using **Next.js**, **React**, **TypeScript**, and *
 	<!-- Home Page -->
 	<img src="/public/images/screenshots/home.png" alt="Home page" width="800" style="max-width:100%;height:auto;"/>
 	<p>Home Page</p>
-
 	<!-- About -->
 	<img src="/public/images/screenshots/about.png" alt="About page" width="700" style="max-width:100%;height:auto;"/>
 	<p>About</p>
 
-	<!-- Skills -->
+	<!-- Skills
 	<img src="/public/images/screenshots/skills.png" alt="Skills section" width="700" style="max-width:100%;height:auto;"/>
 	<p>Skills</p>
 
@@ -79,7 +77,7 @@ The application is developed using **Next.js**, **React**, **TypeScript**, and *
 
 	<!-- Contact -->
 	<img src="/public/images/screenshots/contact.png" alt="Contact page" width="600" style="max-width:100%;height:auto;"/>
-	<p>Contact</p>
+	<p>Contact</p> -->
 </div>
 
 <!-- Comment: Add screenshots to /public/images/screenshots and update paths above -->
