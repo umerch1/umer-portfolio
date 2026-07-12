@@ -67,17 +67,6 @@ The application is developed using **Next.js**, **React**, **TypeScript**, and *
 	<img src="/public/images/screenshots/about.png" alt="About page" width="700" style="max-width:100%;height:auto;"/>
 	<p>About</p>
 
-	<!-- Skills
-	<img src="/public/images/screenshots/skills.png" alt="Skills section" width="700" style="max-width:100%;height:auto;"/>
-	<p>Skills</p>
-
-	<!-- Projects -->
-	<img src="/public/images/screenshots/projects.png" alt="Projects page" width="800" style="max-width:100%;height:auto;"/>
-	<p>Projects</p>
-
-	<!-- Contact -->
-	<img src="/public/images/screenshots/contact.png" alt="Contact page" width="600" style="max-width:100%;height:auto;"/>
-	<p>Contact</p> -->
 </div>
 
 <!-- Comment: Add screenshots to /public/images/screenshots and update paths above -->
@@ -108,25 +97,11 @@ The application is developed using **Next.js**, **React**, **TypeScript**, and *
 ## Installation 🚀
 
 ```bash
-git clone <repository-url>  <!-- replace with your repo URL -->
-cd <project-name>           <!-- replace with your project folder name -->
-npm install                 <!-- or pnpm install if you use pnpm -->
-npm run dev                 <!-- starts the dev server -->
+git clone https://github.com/umerch1/umer-portfolio.git  
+cd umer-portfolio         
+npm install                 
+npm run dev               
 ```
-
-## Environment Variables 🔐
-
-If the project uses third-party services (EmailJS, analytics, etc.), create a `.env.local` file in the project root with variables like the example below:
-
-```bash
-# .env.local (example)
-NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id
-NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id
-NEXT_PUBLIC_EMAILJS_USER_ID=your_user_id
-# Add other API keys or secrets as needed
-```
-
-<!-- Remove or update this section if you don't use environment variables -->
 
 ## Project Pages 🧭
 
@@ -154,10 +129,10 @@ NEXT_PUBLIC_EMAILJS_USER_ID=your_user_id
 
 ## Contact ✉️
 
-- LinkedIn: www.linkedin.com/in/umer-farooq-u78600  <!-- replace -->
-- GitHub: https://github.com/umerch1          <!-- replace -->
-- Portfolio: https://umerportfolio.online      <!-- replace -->
-- Email: umerf3024@gmail.com                   <!-- replace -->
+- LinkedIn: www.linkedin.com/in/umer-farooq-u78600  
+- GitHub: https://github.com/umerch1          
+- Portfolio: https://umerportfolio.online      
+- Email: umerf3024@gmail.com                   
 
 ## License 📄
 
