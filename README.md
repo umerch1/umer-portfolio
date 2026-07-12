@@ -8,10 +8,10 @@
 
 Modern, fast, and accessible portfolio built with Next.js and TypeScript — designed to showcase projects, skills, and experience for recruiters, clients, and collaborators.
 
-<!-- Replace `banner.png` with your banner image in /public/images -->
+
 <div align="center">
 	<img src="/public/images/banner.png" alt="Portfolio banner" width="900" style="max-width:100%;height:auto;"/>
-	<!-- Replace the image above with: /public/images/your-banner.png -->
+	
 	<p>
 		<a href="https://umerportfolio.online" target="_blank" rel="noreferrer"><strong>Live Demo</strong></a>
 		&nbsp;•&nbsp;
@@ -54,7 +54,6 @@ The application is developed using **Next.js**, **React**, **TypeScript**, and *
 | Hosting | Vercel |
 | VCS | Git, GitHub |
 
-<!-- Update the table to reflect actual usage (e.g., remove Framer Motion if not used) -->
 
 ## Screenshots 🖼️
 
@@ -136,8 +135,6 @@ npm run dev
 
 ## License 📄
 
-
-
 Copyright (c) © 2026 Umer Portfolio. All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -157,12 +154,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
 
 ## Acknowledgements 🙏
 
 Thank you for checking out this portfolio. If you find it useful, please leave a star on the repository and feel free to reach out for collaborations or contract work.
-
----
-
-<!-- Next steps: Replace placeholders, add screenshots, and update links. Ask me to customize tone or add an automated badge section. -->
