@@ -14,9 +14,9 @@ Modern, fast, and accessible portfolio built with Next.js and TypeScript — des
 	<!-- Replace the image above with: /public/images/your-banner.png -->
 
 	<p>
-		<a href="https://your-live-demo-url.example" target="_blank" rel="noreferrer"><strong>Live Demo</strong></a>
+		<a href="https://umerportfolio.online/" target="_blank" rel="noreferrer"><strong>Live Demo</strong></a>
 		&nbsp;•&nbsp;
-		<a href="https://github.com/your-username/your-repo" target="_blank" rel="noreferrer">GitHub Repository</a>
+		<a href="https://github.com/umerch1/umer-portfolio" target="_blank" rel="noreferrer">GitHub Repository</a>
 	</p>
 </div>
 
@@ -24,10 +24,10 @@ Modern, fast, and accessible portfolio built with Next.js and TypeScript — des
 
 ## About the Project ✨
 
-This portfolio is a single-page/react-driven website that highlights projects, technical skills, work experience, and contact information. It is intended as a professional showcase for recruiters and clients, and as a code reference for developers.
+This portfolio is a modern **Next.js** application built to showcase my projects, technical skills, professional experience, and contact information in a fast, responsive, and user-friendly interface. It serves as a central hub where recruiters, clients, and fellow developers can explore my work, learn about my technical expertise, and connect with me.
 
-- The site emphasizes clarity, performance, and accessibility.
-- Content is easy to update via `lib/data.ts` and the `app/` routes.
+The application is developed using **Next.js**, **React**, **TypeScript**, and **Tailwind CSS**, with a strong focus on performance, accessibility, SEO, and responsive design. It demonstrates modern web development practices, clean architecture, reusable components, and an optimized user experience across desktop, tablet, and mobile devices.
+
 
 ## Features ⭐
 
@@ -156,19 +156,16 @@ NEXT_PUBLIC_EMAILJS_USER_ID=your_user_id
 
 ## Contact ✉️
 
-- LinkedIn: https://linkedin.com/in/your-profile  <!-- replace -->
-- GitHub: https://github.com/your-username           <!-- replace -->
-- Portfolio: https://your-portfolio-url.example      <!-- replace -->
-- Email: your.email@example.com                      <!-- replace -->
+- LinkedIn: www.linkedin.com/in/umer-farooq-u78600  <!-- replace -->
+- GitHub: https://github.com/umerch1          <!-- replace -->
+- Portfolio: https://umerportfolio.online      <!-- replace -->
+- Email: umerf3024@gmail.com                   <!-- replace -->
 
 ## License 📄
 
-This project is licensed under the MIT License.
 
-```
-MIT License
 
-Copyright (c) YEAR Your Name
+Copyright (c) © 2026 Umer Portfolio. All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
