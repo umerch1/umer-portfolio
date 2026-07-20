@@ -6,42 +6,40 @@ import AnimatedText from "@/components/animated-text";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { articles } from "@/lib/data";
+
 export const metadata = {
   title: "Blog | Umer Farooq - Software Engineer",
   description:
-    "Read the latest articles and insights from Umer Farooq, a software engineer specializing in the MERN stack and React Native development.",};
+    "Read the latest articles and insights from Umer Farooq, a software engineer specializing in the MERN stack and React Native development.",
+};
+
 export default function BlogPage() {
   return (
     <div className="flex flex-col min-h-screen">
       <main className="flex-1">
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <section className="w-full bg-muted/70 py-16 md:py-24 lg:py-28 dark:bg-muted/40">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
-                  <AnimatedText text="portfolio Insights" />
+                <h1 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
+                  <AnimatedText text="Portfolio insights" />
                 </h1>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  Tutorials, tips, and thoughts on portfolio and visual
-                  storytelling
+                  Reflections, tutorials, and practical notes on building thoughtful software and polished interfaces.
                 </p>
               </div>
               <div className="w-full max-w-sm">
-                <Input
-                  type="search"
-                  placeholder="Search articles..."
-                  className="w-full"
-                />
+                <Input type="search" placeholder="Search articles..." className="w-full rounded-full" />
               </div>
             </div>
           </div>
         </section>
 
-        <section className="w-full py-12 md:py-24 lg:py-32">
+        <section className="w-full py-16 md:py-24 lg:py-28">
           <div className="container px-4 md:px-6">
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {articles.map((article) => (
-                <Card key={article.id} className="overflow-hidden">
+                <Card key={article.id} className="overflow-hidden border border-border/70 bg-card/80 shadow-sm">
                   <div className="relative aspect-video overflow-hidden">
                     <Image
                       src={article.image || "/placeholder.svg"}
@@ -57,19 +55,15 @@ export default function BlogPage() {
                         <span className="mx-2">•</span>
                         <span>{article.category}</span>
                       </div>
-                      <h3 className="text-xl font-bold">{article.title}</h3>
-                      <p className="text-muted-foreground">{article.excerpt}</p>
+                      <h3 className="text-xl font-semibold text-foreground">{article.title}</h3>
+                      <p className="text-sm leading-7 text-muted-foreground">{article.excerpt}</p>
                     </div>
                   </CardContent>
                   <CardFooter className="p-6 pt-0">
-                    <Button
-                      asChild
-                      variant="ghost"
-                      className="w-full justify-between"
-                    >
+                    <Button asChild variant="ghost" className="w-full justify-between rounded-full">
                       <Link href={`/blog/${article.id}`}>
                         Read More
-                        <ArrowRight className="h-4 w-4 ml-2" />
+                        <ArrowRight className="ml-2 h-4 w-4" />
                       </Link>
                     </Button>
                   </CardFooter>
@@ -79,31 +73,23 @@ export default function BlogPage() {
           </div>
         </section>
 
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <section className="w-full bg-muted/70 py-16 md:py-24 lg:py-28 dark:bg-muted/40">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
-                  <AnimatedText text="Subscribe to My Newsletter" />
+                <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+                  <AnimatedText text="Subscribe to my newsletter" />
                 </h2>
                 <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
-                  Get the latest portfolio tips, tutorials, and insights
-                  delivered to your inbox
+                  Get practical insights, product notes, and development updates delivered to your inbox.
                 </p>
               </div>
               <div className="mx-auto w-full max-w-sm space-y-2">
                 <form className="flex gap-2">
-                  <Input
-                    type="email"
-                    placeholder="Enter your email"
-                    className="max-w-lg flex-1"
-                  />
-                  <Button type="submit">Subscribe</Button>
+                  <Input type="email" placeholder="Enter your email" className="max-w-lg flex-1 rounded-full" />
+                  <Button type="submit" className="rounded-full">Subscribe</Button>
                 </form>
-                <p className="text-xs text-muted-foreground">
-                  I'll never spam you or share your email. Unsubscribe at any
-                  time.
-                </p>
+                <p className="text-xs text-muted-foreground">I&apos;ll never spam you or share your email. Unsubscribe at any time.</p>
               </div>
             </div>
           </div>

@@ -1,18 +1,17 @@
-import Link from "next/link"
-import Image from "next/image"
-import { ArrowRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardFooter } from "@/components/ui/card"
-import { articles } from "@/lib/data"
+import Link from "next/link";
+import Image from "next/image";
+import { ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardFooter } from "@/components/ui/card";
+import { articles } from "@/lib/data";
 
 export default function LatestArticles() {
-  // Only show the latest 3 articles
-  const latestArticles = articles.slice(0, 3)
+  const latestArticles = articles.slice(0, 3);
 
   return (
-    <div className="grid gap-6 md:grid-cols-3 w-full max-w-5xl">
+    <div className="grid w-full max-w-5xl gap-6 md:grid-cols-3">
       {latestArticles.map((article) => (
-        <Card key={article.id} className="overflow-hidden">
+        <Card key={article.id} className="overflow-hidden border border-border/70 bg-card/80 shadow-sm">
           <div className="relative aspect-video overflow-hidden">
             <Image
               src={article.image || "/placeholder.svg"}
@@ -28,20 +27,20 @@ export default function LatestArticles() {
                 <span className="mx-2">•</span>
                 <span>{article.category}</span>
               </div>
-              <h3 className="text-xl font-bold">{article.title}</h3>
-              <p className="text-muted-foreground line-clamp-2">{article.excerpt}</p>
+              <h3 className="text-xl font-semibold text-foreground">{article.title}</h3>
+              <p className="line-clamp-2 text-muted-foreground">{article.excerpt}</p>
             </div>
           </CardContent>
           <CardFooter className="p-6 pt-0">
-            <Button asChild variant="ghost" className="w-full justify-between">
+            <Button asChild variant="ghost" className="w-full justify-between rounded-full">
               <Link href={`/blog/${article.id}`}>
                 Read More
-                <ArrowRight className="h-4 w-4 ml-2" />
+                <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
           </CardFooter>
         </Card>
       ))}
     </div>
-  )
+  );
 }
