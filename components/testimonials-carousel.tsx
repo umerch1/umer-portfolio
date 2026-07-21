@@ -6,7 +6,7 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { testimonials } from "@/lib/data"
+import { testimonials } from "@/lib/constants"
 
 export default function TestimonialsCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0)

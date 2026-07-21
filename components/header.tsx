@@ -7,6 +7,7 @@ import { ArrowRight, Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { useMobile } from "@/hooks/use-mobile";
+import { navItems } from "@/lib/constants";
 
 export default function Header() {
   const pathname = usePathname();
@@ -16,13 +17,6 @@ export default function Header() {
   useEffect(() => {
     setIsMenuOpen(false);
   }, [pathname]);
-
-  const navItems = [
-    { label: "Home", href: "/" },
-    { label: "Projects", href: "/projects" },
-    { label: "About", href: "/about" },
-    { label: "Contact", href: "/contact" },
-  ];
 
   const isActiveLink = (href: string) =>
     href === "/" ? pathname === href : pathname.startsWith(href);

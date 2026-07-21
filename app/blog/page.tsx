@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import AnimatedText from "@/components/animated-text";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { articles } from "@/lib/data";
+import { articles } from "@/lib/constants";
 
 export const metadata = {
   title: "Blog | Umer Farooq - Software Engineer",

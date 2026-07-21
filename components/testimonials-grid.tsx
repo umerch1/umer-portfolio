@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { testimonials } from "@/lib/data"
+import { testimonials } from "@/lib/constants"
 
 export default function TestimonialsGrid() {
   return (

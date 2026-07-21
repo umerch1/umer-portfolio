@@ -1,6 +1,6 @@
 import AnimatedText from "@/components/animated-text";
 import ProjectCard from "@/components/project-card";
-import { projects } from "@/lib/data";
+import { projects } from "@/lib/constants";
 
 export const metadata = {
   title: "Projects | Umer Farooq - Software Engineer",
