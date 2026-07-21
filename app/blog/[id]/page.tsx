@@ -3,7 +3,7 @@ import Image from "next/image";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import AnimatedText from "@/components/animated-text";
-import { articles } from "@/lib/data";
+import { articles } from "@/lib/constants";
 import { notFound } from "next/navigation";
 export const metadata = {
   title: "Blog | Umer Farooq - Software Engineer",

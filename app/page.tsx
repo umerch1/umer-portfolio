@@ -7,39 +7,13 @@ import FeaturedProjects from "@/components/featured-projects";
 import TestimonialsCarousel from "@/components/testimonials-carousel";
 import SkillsShowcase from "@/components/skills-showcase";
 import LatestArticles from "@/components/latest-articles";
+import { expertise, highlights } from "@/lib/constants";
 
 export const metadata = {
   title: "Home | Umer Farooq - Software Engineer",
   description:
     "Software Engineer specializing in MERN Stack with 4 years of Web and Mobile app development experience. Proficient in React Native, scalable architecture, and modern JavaScript frameworks.",
 };
-
-const expertise = [
-  {
-    title: "Mobile App Development",
-    description: "React Native apps with smooth navigation, scalable architecture, and polished UX.",
-    points: ["Cross-platform iOS & Android", "Firebase integration", "Store-ready delivery"],
-    icon: Rocket,
-  },
-  {
-    title: "Web Engineering",
-    description: "Fast, accessible websites and products built with Next.js, TypeScript, and modern design systems.",
-    points: ["Performance-focused UI", "Responsive layouts", "SEO-ready architecture"],
-    icon: Code2,
-  },
-  {
-    title: "Product Reliability",
-    description: "Clean architecture, testing discipline, documentation, and long-term maintainability.",
-    points: ["Scalable systems", "Clear docs", "Client-first delivery"],
-    icon: ShieldCheck,
-  },
-];
-
-const highlights = [
-  { value: "4+", label: "Years Experience" },
-  { value: "20+", label: "Products Delivered" },
-  { value: "100%", label: "Client Focus" },
-];
 
 export default function Home() {
   return (

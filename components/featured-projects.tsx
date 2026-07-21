@@ -6,7 +6,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { projects } from "@/lib/data";
+import { projects } from "@/lib/constants";
 
 export default function FeaturedProjects() {
   const featuredProjects = projects.slice(0, 3);

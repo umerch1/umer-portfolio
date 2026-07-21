@@ -3,7 +3,7 @@ import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import { articles } from "@/lib/data";
+import { articles } from "@/lib/constants";
 
 export default function LatestArticles() {
   const latestArticles = articles.slice(0, 3);
